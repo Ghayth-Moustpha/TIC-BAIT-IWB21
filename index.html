@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" xml:lang="ar" dir="rtl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مشروع تعليمي HTML و XHTML</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h1>مشروع تعليمي لتعلم HTML و XHTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="tags.html">التاغات</a></li>
+                <li><a href="media.html">الوسائط</a></li>
+                <li><a href="forms.html">النماذج</a></li>
+                <li><a href="tables.html">الجداول</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- مقدمة -->
+        <section>
+            <h2>مقدمة عن HTML</h2>
+            <p>HTML (HyperText Markup Language) هي لغة توصيف النصوص الأساسية لبناء صفحات الويب. بدأت HTML في التسعينيات وساهمت في تطوير الإنترنت كما نعرفه اليوم.</p>
+        </section>
+
+        <!-- تاريخ HTML -->
+        <section>
+            <h2>تاريخ HTML</h2>
+            <ul>
+                <li>1991: ظهور HTML 1.0</li>
+                <li>1995: HTML 2.0 تم توسيعها لتشمل الجداول والنماذج</li>
+                <li>1997: HTML 3.2 أضافت دعم القوائم والبرمجيات</li>
+                <li>1999: HTML 4.01 — دعم CSS وDOM</li>
+                <li>2000: ظهور XHTML 1.0 لتحسين التوافق مع XML</li>
+                <li>2008: HTML5 تم تطويره ليصبح أكثر مرونة ودعماً للوسائط الحديثة</li>
+            </ul>
+        </section>
+
+        <!-- XHTML -->
+        <section>
+            <h2>XHTML</h2>
+            <p>XHTML (eXtensible HyperText Markup Language) هو نسخة صارمة من HTML مبنية على XML. تم تصميمه لضمان التوافق مع معايير XML وتسهيل معالجة الصفحات بواسطة الآلات.</p>
+            
+            <h3>إصدارات XHTML</h3>
+            <ul>
+                <li>XHTML 1.0: 3 أنواع - Strict، Transitional، Frameset</li>
+                <li>XHTML 1.1: نسخة أكثر صرامة وحدات Modular</li>
+                <li>XHTML 2.0: لم يعتمد رسمياً وتم إلغاء المشروع</li>
+                <li>XHTML5: موازي لـ HTML5 مع قواعد XML</li>
+            </ul>
+
+            <h3>مميزات XHTML</h3>
+            <ul>
+                <li>✔ صرامة أكبر في كتابة الوسوم</li>
+                <li>✔ كل الوسوم يجب أن تكون مغلقة</li>
+                <li>✔ خصائص الوسوم يجب أن تكون بين علامات اقتباس</li>
+                <li>✔ التوافق مع XML وXSLT</li>
+                <li>✔ صفحات أكثر نظافة وسهلة المعالجة آلياً</li>
+            </ul>
+        </section>
+
+        <!-- مقارنة HTML vs XHTML -->
+        <section>
+            <h2>مقارنة بين HTML و XHTML</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>المعيار</th>
+                        <th>HTML</th>
+                        <th>XHTML</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>المرونة</td>
+                        <td>مرنة وتتسامح مع الأخطاء</td>
+                        <td>صارمة، الأخطاء تمنع العرض</td>
+                    </tr>
+                    <tr>
+                        <td>إغلاق الوسوم</td>
+                        <td>اختياري في بعض الوسوم مثل &lt;br&gt;</td>
+                        <td>إلزامي لجميع الوسوم، مثلاً &lt;br /&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>حالة الأحرف</td>
+                        <td>يمكن استخدام الكبيرة أو الصغيرة</td>
+                        <td>يجب استخدام lowercase لجميع الوسوم</td>
+                    </tr>
+                    <tr>
+                        <td>التوافق</td>
+                        <td>المتصفحات تتجاهل الأخطاء</td>
+                        <td>الأخطاء تمنع عرض الصفحة أو تتسبب في توقف التحليل</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- مثال كود -->
+        <section>
+            <h2>مثال كود: HTML يسمح به وXHTML لا يسمح به</h2>
+            <p>في HTML يمكنك كتابة الوسوم بدون إغلاق أو بدون علامات اقتباس:</p>
+            <pre><code>&lt;br&gt;
+&lt;img src=example.jpg alt=صورة&gt;</code></pre>
+
+            <p>بينما في XHTML يجب أن تكتب بالشكل الصارم:</p>
+            <pre><code>&lt;br /&gt;
+&lt;img src="example.jpg" alt="صورة" /&gt;</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - مشروع تعليمي HTML و XHTML</p>
+    </footer>
+    </div>
+</body>
+</html>
