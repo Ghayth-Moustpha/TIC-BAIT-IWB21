@@ -51,7 +51,7 @@ project-folder/
 ### معلومات المؤلف
 
 - **الاسم:** غيث مصطفى  
-- **البريد الجامعي:** ghayth.m@university.edu  
+- **البريد الجامعي:** t_gmoustpha@svuonline.org  
 
 ---
 
